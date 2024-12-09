@@ -10,4 +10,4 @@ sudo apt install python3 python3-pip -y
 sudo apt-get install mysql-server
 
 echo "Installing required Python packages..."
-pip3 install pymysql
+pip3 install -r requirements.txt

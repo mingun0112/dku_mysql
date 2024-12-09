@@ -1,0 +1,14 @@
+sh install.sh
+
+#처음mysql 설치 시
+sudo mysql_secure_installation
+
+sudomysql-u root
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_passwordby '1234';
+quit
+
+mysql-u root -p
+
+SOURCE db.sql
+quit
