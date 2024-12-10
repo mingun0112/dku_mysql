@@ -8,7 +8,7 @@ def get_db_connection():
 
 
 def order_registration():
-    """주문 등록 함수 (인덱스 선택)"""
+
     try:
         conn = get_db_connection()
         cur = conn.cursor()
@@ -61,7 +61,7 @@ def order_registration():
 
 
 def view_orders():
-    """주문 정보 조회 함수"""
+ 
     try:
         conn = get_db_connection()
         cur = conn.cursor()
@@ -91,7 +91,7 @@ def view_orders():
     finally:
         conn.close()
 def delete_order():
-    """주문 삭제 함수 (인덱스 번호로 선택)"""
+
     try:
         conn = get_db_connection()
         cur = conn.cursor()

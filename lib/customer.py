@@ -65,7 +65,7 @@ def customer_deletion():
 
     try:
         choice = int(input("\n삭제할 고객 번호를 선택하세요: "))
-        if choice == 0:  # 뒤로가기 처리
+        if choice == 0: 
             print("뒤로 가기")
             os.system('clear')
             # conn.close()
